@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 15px;
+}
+
+.row {
+    padding: 0;
+    margin: 0;
+}
+
+/* headings */
+
+h1,
+h3 {
+    font-family: 'Josefin Sans';
+    text-transform: uppercase;
+    color: #fff;
+}
+
+header h1 {
+    position: absolute;
+    border: 1px solid #fff;
+    padding: 15px 70px 15px 15px;
+    margin: 0 30px;
+    top: 50%;
+    transform: translate(-0, -50%);
+    -webkit-transform: translate(-0, -50%);
+    -moz-transform: translate(-0, -50%);
+    -ms-transform: translate(-0, -50%);
+    -o-transform: translate(-0, -50%);
+    font-size: 200%;
+    
+}
+
+section h1 {
+    
+    font-weight: 300;
+    font-size: 180%;
+    text-align: center;
+    padding: 20px 60px 10px 60px;
+    color: #000;
+}
+
+section div h3 {
+    position: absolute;
+    top: 70%;
+    left: 12%;
+    transform:translate(-12%, -70%);
+    -moz-transform:translate(-10%, -70%);
+    -ms-transform:translate(-10%, -70%);
+    -o-transform:translate(-10%, -70%);
+    -webkit-transform:translate(-10%, -70%);
+    font-weight: 300;
+    font-size: 150%;
+    
+}
+
+
+/* Paragharaph */
+
+p {
+    text-align: center;
+    line-height: 1.5;
+    padding: 0 70px 50px 70px;
+    font-family: 'Alata';
+    font-size: 115%;
+    font-weight: 400;
+    color: hsl(0, 0%, 55%);
+}
+
+
+/* buttons */
+
+section a {
+    display: none;
+}
+
+.big-btn {
+    
+    display: block;
+    margin: 15px auto 0 auto;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    width: 120px;
+    padding: 5px 0;
+    font-family: 'Alata';
+    color: #000;
+    text-transform: uppercase;
+    border: 1px solid #000;
+}
+
+/* header */
+
+header {
+    height: 100vh;
+    width: 100%;
+    background-image: url("../images/mobile/image-hero.jpg");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+header .logo {
+    display: inline-block;
+    z-index: 9999;
+}
+.fa-times,
+.logo img,
+.bar .fa-bars {
+    padding-top: 50px;
+    
+}
+
+.logo img {
+    z-index: 99999;
+    padding-left: 30px;
+}
+
+header .bar {
+
+    float: right;
+
+}
+.fa-times,
+.bar .fa-bars {
+    z-index: 99999;
+    padding-right: 30px;
+    color: #fff;
+    font-size: 150%;
+    cursor: pointer;
+}
+
+.mobile-menu {
+    position: absolute;
+    background: #000;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    display: none;
+}
+
+.show-menu {
+    display: block;
+    position: absolute;
+    background: #000;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+.show-menu ul,
+.mobile-menu ul {
+    list-style-type: none;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    padding-left: 30px;
+}
+
+.show-menu li,
+.mobile-menu li {
+    padding: 10px 0;
+}
+
+.show-menu a,
+.mobile-menu a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Josefin Sans';
+    text-transform: uppercase;
+    font-size: 150%;
+    font-weight: 300;
+}
+
+.des-menu {
+    float: right;
+    display: none;
+}
+
+.des-menu ul {
+    list-style-type: none;
+    padding: 50px 30px;
+}
+
+.des-menu  li {
+    display: inline-block;
+    padding: 0 0 0 30px;
+}
+
+.des-menu a {
+    color: #fff;
+    text-decoration: #fff;
+    
+}
+
+.des-menu a:hover {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #fff;
+    
+}
+ 
+/* body section */
+
+section {
+    padding: 80px 0;
+}
+
+section div { position: relative;}
+
+section img { 
+    padding: 10px 30px;
+    width: 100%;
+}
+
+.virtual-img img {
+    padding-top: 0;
+}
+
+
+
+/* footer */
+
+footer {
+    background:#000;
+    text-align: center;
+}
+
+footer img {
+    padding: 50px 0 30px 0;
+}
+
+footer ul a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.contat-link li {
+    padding-bottom: 30px;
+}
+
+.socail-link li {
+    display: inline-block;
+    padding: 20px 5px ;
+}
+
+.socail-link a {
+    font-size: 150%;
+    cursor: pointer;
+}
+
+footer a:hover {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #fff;
+    
+}
+
+
+

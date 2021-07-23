@@ -1,0 +1,376 @@
+@media only screen and (max-width: 1440px) and (min-width: 701px)  {
+     
+
+
+    .des-menu {display: block;}
+    .des-menu  li {
+        padding: 0 0 0 40px;
+    }
+
+    header .bar {display: none;}
+
+    header h1 {
+        height: 200px;
+        width: 50%;
+        padding: 40px 80px 40px 40px;
+        font-size: 300%;
+        font-weight: 300;   
+    }
+
+    .virtual-img {
+        width: 60%;
+        display: inline-block;
+    }
+
+    .leader_text {
+        position: absolute;
+        width: 45%;
+        z-index: 9999;
+        top: 30%;
+        left: 50%;
+        background-color: #fff;
+        height: 70%;
+    }
+
+    .leader_text h1,
+    .leader_text P {
+        text-align: left;
+        padding-left: 40px;
+    }
+
+    .leader_text h1 {
+        font-size: 310%;
+        padding-bottom: 10px;
+    }
+
+    .leader_text P {
+        font-size: 120%;
+        padding-top: 0;
+        line-height: 1.85;
+    }
+
+    .col {
+        width: 22.4%;
+    }
+
+
+    .pic img {
+        width: 100%;
+        height: 400px;
+        margin: 0;
+        padding: 0;
+    }
+   .pic .box-img01 {margin-left: 30px;}
+   .pic .box-img02 {
+        margin-right: 30px;
+    }
+
+    section div h3 {
+        
+        top: 90%;
+        left: 15%;
+        transform:translate(-15%, -90%);
+        font-size: 100%;
+        
+    }
+
+    section div .box-h3 {
+        top: 90%;
+        transform:translate(-0%, -90%);
+    }
+
+   .big-btn {
+       display: none;
+   }
+
+   section h1 {
+    display: inline-block;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.small-btn {
+    
+    display: inline-block;
+    margin: 40px 45px 0 0;
+    text-decoration: none;
+    background: #fff;
+    color: #000;
+    float: right;
+    text-align: center;
+    border: 1px solid #000;
+    width: 100px;
+    
+}
+
+.small-btn:hover {
+    color: #fff;
+    background: #000;
+}
+
+.pic div img:hover{
+    opacity: 0.5;
+    -webkit-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    transform: scale(1.03);
+    
+}
+
+.pic div img:hover + h3{
+    color: #000;
+    font-size: 120%;
+    font-weight: bold;
+}
+
+
+
+footer .col {
+    width: 48%;
+}
+
+footer img {
+    padding: 0;
+    text-align: left;
+    margin-left: -400px;
+}
+
+footer .contat-link {
+    margin-left: -320px;
+}
+
+footer .contat-link li {
+    display: inline-block;
+    padding: 5px;
+}
+
+.socail-link li {
+    display: inline-block;
+    float: right;
+    padding:5px;
+    margin-right: 20px;
+}
+
+.socail-link a {
+    font-size: 100%;
+}
+
+footer p {
+    display: block;
+    float: right;
+    margin: 0 -162px 0 0;
+    padding: 30px 5px 5px 5px;
+    font-size: 100%;
+}
+ 
+
+    }
+
+
+
+
+
+
+@media only screen and (max-width: 700px) and (min-width: 650px)  {
+     
+    .des-menu {display: block;}
+    .des-menu  li {
+        
+        padding: 0 0 0 15px;
+    }
+
+    header .bar {display: none;}
+
+    header h1 {
+        height: 200px;
+        width: 50%;
+        padding: 40px 80px 40px 40px;
+        font-size: 200%;
+        font-weight: 300;   
+    }
+
+    .virtual-img {
+        width: 60%;
+        display: inline-block;
+    }
+
+    .leader_text {
+        position: absolute;
+        width: 45%;
+        z-index: 9999;
+        top: 30%;
+        left: 50%;
+        background-color: #fff;
+        height: 70%;
+    }
+
+    .leader_text h1,
+    .leader_text P {
+        text-align: left;
+        padding-left: 40px;
+    }
+
+    .leader_text h1 {
+        font-size: 90%;
+        padding-bottom: 0;
+    }
+
+    .leader_text P {
+        font-size: 70%;
+        padding-top: 0;
+    }
+
+    .col {
+        width: 23.4%;
+    }
+
+
+    .pic img {
+        width: 100%;
+        height: 400px;
+        margin: 0;
+        padding: 0;
+    }
+   .pic .box-img01 {margin-left: 30px;}
+   .pic .box-img02 {
+        margin-right: 30px;
+    }
+
+    section div h3 {
+        
+        top: 90%;
+        left: 15%;
+        transform:translate(-15%, -90%);
+        font-size: 100%;
+        
+    }
+
+    section div .box-h3 {
+        top: 90%;
+        transform:translate(-0%, -90%);
+    }
+
+   .big-btn {
+       display: none;
+   }
+
+   section h1 {
+    display: inline-block;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.small-btn {
+    width: 70px;
+    display: inline-block;
+    margin: 40px 40px 0 0;
+    text-decoration: none;
+    background: #fff;
+    color: #000;
+    float: right;
+    text-align: center;
+    border: 1px solid #000;
+    width: 100px;
+}
+
+.small-btn:hover {
+    color: #fff;
+    background: #000;
+}
+
+.pic div img:hover{
+    opacity: 0.5;
+    -webkit-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    transform: scale(1.03);
+    
+}
+
+.pic div img:hover + h3{
+    color: #000;
+    font-size: 120%;
+    font-weight: bold;
+}
+
+
+footer .col {
+    width: 48%;
+}
+
+footer img {
+    padding: 0;
+    text-align: left;
+    margin-left: -80px;
+}
+
+footer .contat-link li {
+    display: inline-block;
+    padding: 5px;
+}
+
+.socail-link li {
+    display: inline-block;
+    float: right;
+    padding:5px;
+    margin-right: 20px;
+}
+
+.socail-link a {
+    font-size: 100%;
+}
+
+footer p {
+    display: block;
+    float: right;
+    margin: 0 15px 0 0;
+    padding: 10px 5px 5px 5px;
+    font-size: 100%;
+}
+ 
+
+    }
+
+/* @media (min-width: 699px){
+    .des-menu {display: block;}
+
+    header .bar {display: none;}
+
+    header h1 {
+        height: 200px;
+        width: 50%;
+        padding: 40px 80px 40px 40px;
+        font-size: 300%;
+        font-weight: 300;   
+    }
+
+    .virtual-img {
+        width: 60%;
+        display: inline-block;
+    }
+
+    .leader_text {
+        position: absolute;
+        width: 45%;
+        z-index: 9999;
+        top: 30%;
+        left: 50%;
+        background-color: #fff;
+        height: 70%;
+    }
+
+    .leader_text h1,
+    .leader_text P {
+        text-align: left;
+        padding-left: 40px;
+    }
+
+    .leader_text h1 {
+        font-size: 90%;
+        padding-bottom: 0;
+    }
+
+    .leader_text P {
+        font-size: 70%;
+        padding-top: 0;
+    }
+} */
+
