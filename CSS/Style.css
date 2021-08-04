@@ -67,6 +67,12 @@ section div h3 {
 }
 
 
+.pic div img:hover + h3{
+    color: #000;
+    font-size: 120%;
+    font-weight: bold;
+}
+
 /* Paragharaph */
 
 p {
@@ -86,8 +92,8 @@ section a {
     display: none;
 }
 
+.small-btn,
 .big-btn {
-    
     display: block;
     margin: 15px auto 0 auto;
     text-align: center;
@@ -100,6 +106,17 @@ section a {
     text-transform: uppercase;
     border: 1px solid #000;
 }
+
+.small-btn {
+    display: none;
+}
+
+.small-btn:hover,
+.big-btn:hover {
+    background-color: #000;
+    color: #fff;
+}
+
 
 /* header */
 
@@ -214,6 +231,10 @@ header .bar {
     border-bottom: 1px solid #fff;
     
 }
+
+header br {
+    display: none;
+}
  
 /* body section */
 
@@ -231,6 +252,12 @@ section img {
 .virtual-img img {
     padding-top: 0;
 }
+
+.pic div img:hover{
+    opacity: 0.5;  
+    
+}
+
 
 
 
@@ -260,6 +287,7 @@ footer ul a {
 }
 
 .socail-link a {
+    display: inline-block;
     font-size: 150%;
     cursor: pointer;
 }
@@ -269,6 +297,5 @@ footer a:hover {
     border-bottom: 1px solid #fff;
     
 }
-
 
 
